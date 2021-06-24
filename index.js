@@ -11,7 +11,7 @@ const main = async () => {
 
     const num = 1337;
     console.log(`setting num ${num}`);
-    await test.setNum(num);
+    await test.setNum(num, {value: 5566});
 
     const newNum = await test.num();
     console.log(`num set to ${newNum}`);
