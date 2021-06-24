@@ -1,5 +1,5 @@
 {
-  "name": "eip-1559-ether-js",
+  "name": "ether-js-geth-issue",
   "main": "index.js",
   "scripts": {
     "build": "hardhat compile"
@@ -8,6 +8,6 @@
     "@nomiclabs/hardhat-ethers": "2.0.2",
     "ethers": "5.3.1",
     "hardhat": "2.4.1",
-    "ts-node": "^10.0.0"
+    "ts-node": "10.0.0"
   }
 }
