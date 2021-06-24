@@ -1,0 +1,14 @@
+version: "3.8"
+
+services:
+    geth-1.10.4:
+        image: ethereum/client-go:v1.10.4
+        ports:
+            - "8545:8545"
+        command: --http --http.addr 0.0.0.0 --dev
+
+    geth-1.10.3:
+        image: ethereum/client-go:v1.10.3
+        ports:
+            - "8545:8545"
+        command: --http --http.addr 0.0.0.0 --dev
